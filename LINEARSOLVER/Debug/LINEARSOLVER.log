@@ -1,0 +1,25 @@
+﻿  My_fstream.cpp
+e:\github\linearsolver\linearsolver\my_fstream.cpp(63): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(65): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(66): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(69): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(70): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(76): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(107): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\github\linearsolver\linearsolver\my_fstream.cpp(91): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(93): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(94): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(97): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(98): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(104): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(119): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(121): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(122): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(125): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(126): warning C4390: ';': empty controlled statement found; is this the intent?
+e:\github\linearsolver\linearsolver\my_fstream.cpp(132): warning C4390: ';': empty controlled statement found; is this the intent?
+  preliminaries.cpp
+  Generating Code...
+e:\github\linearsolver\linearsolver\my_fstream.cpp(83): error C4716: 'My_fstream::readMatrix': must return a value
+e:\github\linearsolver\linearsolver\my_fstream.cpp(139): error C4716: 'My_fstream::readMatrix': must return a value
+e:\github\linearsolver\linearsolver\my_fstream.cpp(111): error C4716: 'My_fstream::readMatrix': must return a value
