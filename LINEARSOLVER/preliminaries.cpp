@@ -379,12 +379,13 @@ void preliminaries::SOLVE_LU(double **A, double* b, double *x, int m, double **L
 	VecZero(x, m);
 	int Per = 0;
 	det = 1.0;
-	
+	double cij = 1;
 	double max, temp, c;
 	for (i = 0; i < m - 1; i++) {
 		max = abs(A[i][i]);
 		for (k = i + 1; k < m; k++) {
 			if (abs(A[k][i]) > max) {
+				cij *= -1.0;
 				max = abs(A[k][i]);
 				for (q = i; q < m; q++) {
 					temp = A[k][q];
@@ -427,7 +428,7 @@ void preliminaries::SOLVE_LU(double **A, double* b, double *x, int m, double **L
 			}
 		}
 	}
-	det *= A[m - 1][m - 1];
+	det *= A[m - 1][m - 1] * cij;
 
 	x[m - 1] = b[m - 1] / A[m - 1][m - 1];
 	for (int i = m - 2; i > -1; i--) {
